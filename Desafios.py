@@ -18,9 +18,11 @@
 # Desafio 02: Crie um programa que leia o nome de uma cidade e siga se ela 
 # # começa ou não com o nome “Santo”.
 
-# city = input('Digite o nome da sua cidade: ')
-# city_1 = city.split()
-# print(f"A sua cidade começa com santo? {('Santo' in city_1[0])}")
+#city = input('Digite o nome da sua cidade: ')
+#city_1 = city.split()
+#city_1Maiusc = city_1[0].upper() -Melhor jeito de impedir que diferenças de caixa alta e baixa retornem valor falso, assim transformo tudo em caixa alta e na hora de procurar procuro como caixa alta tambem
+#verificanome = "SANTO" in city_1Maiusc
+#print(f"A sua cidade {city} começa com santo? {verificanome}")
       
 #DESAFIO 03 Crie um programa que leia o nome de uma pessoa e diga se 
 # # ela tem "Silva" no nome
@@ -35,7 +37,7 @@
 # #Em que posição ela aparece a primeira vez
 # print(f"A letra aparece a primeira vez na posicao {frase.find('a')}")
 # #Em que posição ela aparece a ultima vez
-# print(f"A letra A aparece a última vez na posicao {frase.find('-a')}")
+# print(f"A letra A aparece a última vez na posicao {frase.find('-a')}") - CORRIGIR!
 
 #DESAFIO 05: Faça um programa que leia o nome completo de uma pessoa, 
 # mostrando em seguida o primeiro e o ultimo nome separadamente
@@ -44,5 +46,21 @@
 # nome_separado = (nomeQuerido.split())
 # print(f"Primeiro nome: {nome_separado [0]}")
 # print(f"Segundo nome: {nome_separado [1]}")
+
+#Desafio 5
+#Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o ultimo nome separadamente
+#Exemplo: Ana Maria De Souza
+#Primeiro: Ana
+#Ultimo: Souza
+
+#nomeCompleto = str(input("Digite seu nome: "))
+
+#divideNome = nomeCompleto.split() #Inicia cada palavra dentro de um array
+#tamanhoArray = len(divideNome)
+#inicioNome = divideNome[0]
+#fimNome = divideNome[tamanhoArray - 1]
+
+#print(f"Primeiro Nome: {inicioNome}")
+#print(f"Ultimo Nome: {fimNome}")
 
 
