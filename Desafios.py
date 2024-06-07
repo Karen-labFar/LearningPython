@@ -19,7 +19,8 @@
 # # começa ou não com o nome “Santo”.
 
 # city = input('Digite o nome da sua cidade: ')
-# print(f"A sua cidade começa com santo? {('Santo' in city)}")
+# city_1 = city.split()
+# print(f"A sua cidade começa com santo? {('Santo' in city_1[0])}")
       
 #DESAFIO 03 Crie um programa que leia o nome de uma pessoa e diga se 
 # # ela tem "Silva" no nome
