@@ -37,7 +37,7 @@
 # #Em que posição ela aparece a primeira vez
 # print(f"A letra aparece a primeira vez na posicao {frase.find('a')}")
 # #Em que posição ela aparece a ultima vez
-# print(f"A letra A aparece a última vez na posicao {frase.find('-a')}") - CORRIGIR!
+# print(f"A letra A aparece a última vez na posicao {frase.rfind('a')}") - CORRIGIR! Rfind?
 
 #DESAFIO 05: Faça um programa que leia o nome completo de uma pessoa, 
 # mostrando em seguida o primeiro e o ultimo nome separadamente
